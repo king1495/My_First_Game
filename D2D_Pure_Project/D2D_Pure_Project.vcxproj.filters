@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MainEntry">
+      <UniqueIdentifier>{31e29fb3-647e-47fc-915a-a327e9faa4f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module">
+      <UniqueIdentifier>{3afd1050-f4b5-4819-8de1-5590d61c9d6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module\Key">
+      <UniqueIdentifier>{08322303-8cf6-48b4-9f92-410e0f2e5a01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SingletonBase">
+      <UniqueIdentifier>{bbb28d31-f458-441c-92c3-021f827ccc51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{a388ffc0-723c-48f8-8c6f-d126726b7ac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\D2D">
+      <UniqueIdentifier>{b072be84-a91a-4eb4-aa9f-23f5b73e15c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module\Timer">
+      <UniqueIdentifier>{4b6ddc24-58a1-4ba4-913f-999f02a0c4a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Utility">
+      <UniqueIdentifier>{639714d4-651a-4fd3-9401-52e10b3fc526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Utility\Collision">
+      <UniqueIdentifier>{705264a9-c9a1-46a7-9c4c-01ccf2341d01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module\BulletManager">
+      <UniqueIdentifier>{83ef8729-c7e0-4e72-87e8-813357fd03fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module\BulletManager\Bullet">
+      <UniqueIdentifier>{64e92a09-b76c-404e-a02d-5001291a9c33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module\ImageManager">
+      <UniqueIdentifier>{29e1ae46-7a01-46c7-985b-e5795584fedf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module\ImageManager\ImageModule">
+      <UniqueIdentifier>{a41c32bc-6fc1-4749-a723-13e2069d09e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EnemyManager">
+      <UniqueIdentifier>{16fd3455-1907-4ba8-af79-8d55b7d65dc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EnemyManager\EnemyClass">
+      <UniqueIdentifier>{027d2312-5299-48d7-9516-1210cd376a9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module\Camera">
+      <UniqueIdentifier>{33a70b9f-ccd8-4187-a2f0-b6790c4d575e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EnemyManager\Motion">
+      <UniqueIdentifier>{0a5a142a-90c9-4243-8a39-035259da5b9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module\Scene">
+      <UniqueIdentifier>{d676f60c-0528-4f71-a617-4b9f181ae8a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database">
+      <UniqueIdentifier>{f1399a1d-4924-4ae4-b9a7-c074199fa1e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CharacterManager">
+      <UniqueIdentifier>{8d9981a7-7b6b-4073-ab91-8ec4d8e4d0c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CharacterManager\CharacterClass">
+      <UniqueIdentifier>{a542bc0e-379b-4512-b6b7-45ee4909ebd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FontManager">
+      <UniqueIdentifier>{fb7ece50-5c68-418b-afb0-6af28eadd307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ItemManager">
+      <UniqueIdentifier>{415ea432-99f4-47f2-818e-30f5966854d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module\Scene\GameScenes">
+      <UniqueIdentifier>{3e0b63ab-ecb0-44de-978f-753725e962b5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="modules.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainEntryClass.h">
+      <Filter>MainEntry</Filter>
+    </ClInclude>
+    <ClInclude Include="Singletonbase.h">
+      <Filter>SingletonBase</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyModule.h">
+      <Filter>Module\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="cApplication.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="DX2DApp.h">
+      <Filter>System\D2D</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerModule.h">
+      <Filter>Module\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomMacro.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>헤더 파일\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionHelper.h">
+      <Filter>헤더 파일\Utility\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManager.h">
+      <Filter>Module\BulletManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>Module\ImageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageModule.h">
+      <Filter>Module\ImageManager\ImageModule</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyClass.h">
+      <Filter>EnemyManager\EnemyClass</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>EnemyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>Module\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Minion.h">
+      <Filter>EnemyManager\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletClass.h">
+      <Filter>Module\BulletManager\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Module\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameScene.h">
+      <Filter>Module\Scene\GameScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>Module\Scene\GameScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalBullet.h">
+      <Filter>Module\BulletManager\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="GuidedBullet.h">
+      <Filter>Module\BulletManager\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Database.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterClass.h">
+      <Filter>CharacterManager\CharacterClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Character1.h">
+      <Filter>CharacterManager\CharacterClass</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterManager.h">
+      <Filter>CharacterManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BombBullet.h">
+      <Filter>Module\BulletManager\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Character2.h">
+      <Filter>CharacterManager\CharacterClass</Filter>
+    </ClInclude>
+    <ClInclude Include="OrbitBullet.h">
+      <Filter>Module\BulletManager\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="ChainBullet.h">
+      <Filter>Module\BulletManager\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="FocusBullet.h">
+      <Filter>Module\BulletManager\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Character3.h">
+      <Filter>CharacterManager\CharacterClass</Filter>
+    </ClInclude>
+    <ClInclude Include="SlashBullet.h">
+      <Filter>Module\BulletManager\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterSelectScene.h">
+      <Filter>Module\Scene\GameScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>FontManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>EnemyManager\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="Flier.h">
+      <Filter>EnemyManager\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>ItemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemClass.h">
+      <Filter>ItemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EndGameScene.h">
+      <Filter>Module\Scene\GameScenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainEntryClass.cpp">
+      <Filter>MainEntry</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyModule.cpp">
+      <Filter>Module\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="cApplication.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="DX2DApp.cpp">
+      <Filter>System\D2D</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerModule.cpp">
+      <Filter>Module\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletManager.cpp">
+      <Filter>Module\BulletManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>Module\ImageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageModule.cpp">
+      <Filter>Module\ImageManager\ImageModule</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyClass.cpp">
+      <Filter>EnemyManager\EnemyClass</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>EnemyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>Module\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Minion.cpp">
+      <Filter>EnemyManager\Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletClass.cpp">
+      <Filter>Module\BulletManager\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Module\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameScene.cpp">
+      <Filter>Module\Scene\GameScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionCheck.cpp">
+      <Filter>Module\Scene\GameScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>Module\Scene\GameScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalBullet.cpp">
+      <Filter>Module\BulletManager\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="GuidedBullet.cpp">
+      <Filter>Module\BulletManager\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Database.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterClass.cpp">
+      <Filter>CharacterManager\CharacterClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Character1.cpp">
+      <Filter>CharacterManager\CharacterClass</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterManager.cpp">
+      <Filter>CharacterManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BombBullet.cpp">
+      <Filter>Module\BulletManager\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Character2.cpp">
+      <Filter>CharacterManager\CharacterClass</Filter>
+    </ClCompile>
+    <ClCompile Include="OrbitBullet.cpp">
+      <Filter>Module\BulletManager\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="ChainBullet.cpp">
+      <Filter>Module\BulletManager\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="FocusBullet.cpp">
+      <Filter>Module\BulletManager\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Character3.cpp">
+      <Filter>CharacterManager\CharacterClass</Filter>
+    </ClCompile>
+    <ClCompile Include="SlashBullet.cpp">
+      <Filter>Module\BulletManager\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterSelectScene.cpp">
+      <Filter>Module\Scene\GameScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>FontManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>EnemyManager\Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="Flier.cpp">
+      <Filter>EnemyManager\Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>ItemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemClass.cpp">
+      <Filter>ItemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="EndGameScene.cpp">
+      <Filter>Module\Scene\GameScenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
